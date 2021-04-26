@@ -81,7 +81,7 @@ Now that the data is slightly easier to read and write, let's sort the features 
     transposed_df = transposed_df.transpose()
     ```
 
-    ![Transposed dataframe](.\images\1. Transposed dataframe.png)
+    ![Transposed dataframe](https://raw.githubusercontent.com/nosas/BobRossAnalysis/main/images/1.%20Transposed%20dataframe.png)
 
     Transposed dataframe
 
@@ -131,7 +131,7 @@ As you can see, Bob Ross *loved* to draw trees. Below is a bar plot generated wi
 
 - The labels are difficult to read, but we resolve this by grouping features in the Feature Engineering section of this report.
 
-![Frequency of each feature](.\images\2. Frequency of each feature.png)
+![Frequency of each feature](https://raw.githubusercontent.com/nosas/BobRossAnalysis/main/images/2.%20Frequency%20of%20each%20feature.png)
 
 Frequency of each feature
 
@@ -153,7 +153,7 @@ ax.set(title='Correlation of all ungrouped features')
 sns.heatmap(corr)
 ```
 
-![Correlation of ungrouped features](.\images\3. Correlation of ungrouped features.png)
+![Correlation of ungrouped features](https://raw.githubusercontent.com/nosas/BobRossAnalysis/main/images/3.%20Correlation%20of%20ungrouped%20features.png)
 
 There are a handful of highly positive and negative correlation, let's dive deeper to find what they are
 
@@ -284,7 +284,7 @@ ax.set(title='Correlation of grouped features')
 sns.heatmap(all_groups_corr, yticklabels=True)  # Show every y-axis label instead of every other label
 ```
 
-![Correlation of grouped features](.\images\4. Correlation of grouped features.png)
+![Correlation of grouped features](https://raw.githubusercontent.com/nosas/BobRossAnalysis/main/images/4.%20Correlation%20of%20grouped%20features.png)
 
 Interesting correlations were highlighted in green boxes
 

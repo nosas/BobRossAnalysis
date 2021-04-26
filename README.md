@@ -1,4 +1,6 @@
 # Final Project : Bob Ross
+Special thanks to Sharon Ng (https://github.com/sharonng) for helping me learn the ropes of pandas and seaborn.
+
 
 # Data Set Description
 
